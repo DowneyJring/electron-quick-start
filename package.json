@@ -2,6 +2,10 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "quick-start",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DowneyJring/electron-quick-start.git"
+  },
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -19,6 +23,7 @@
     "electron": "^21.2.2"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "yarn": "^1.22.19"
   }
 }
